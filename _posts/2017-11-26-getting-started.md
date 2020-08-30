@@ -1,87 +1,51 @@
 ---
 layout: post
-title: Getting Started with Sleek
+title: 花间一壶酒，独酌无相亲
 featured-img: sleek
 mathjax: true
 ---
 
 # Getting started
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `blog` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
 
-1. Just download or fork and clone the source from [github.com/janczizikow/sleek](https://github.com/janczizikow/sleek/).
-2. Make sure your local machine has ruby and node
-3. Edit site settings in  `_config.yml` file according to your project.
-4. Replace `favicons` and `_includes/logo.svg` with your own logo.
+**我生君未生**
+我生君未生，君生我已老。
+我恨君生迟，君叹我生早。
+若得生同时，誓拟与君好。
+年岁不可更，怅惘知多少。
+咫尺似天涯，寸心难相表。
+我生君未生，君生我已老。
+来世愿同生，永作比翼鸟。
+和鸣相伴飞，天涯复海角。
+有日老难飞，互抱栖树杪。
+老死化树藤，情根亦缠绕。
+公历2015年6月15日星期一7时34分
+农历乙未年四月廿九日甲辰时 秋屏 撰于听蕉雨馆
+安徽日报报业集团亳州晚报社《亳州晚报》2015年12月22日12版发表
 
-**Note** that you might have to adjust some CSS depending on the width and height of your logo. You can find Header / Navigation related SCSS in `_sass/layout/nav.scss`.
+
 
 ## Writing content
 
-### Posts
-
-Create a new Markdown file such as `2017-01-13-my-post.md` in `_post` folder. Configure YAML Front Matter (stuff between `---`):
-
-```yaml
-
----
-layout: post # needs to be post
-title: Getting Started with Sleek # title of your post
-featured-img: sleek #optional - if you want you can include hero image
----
-
-```
-
-#### Images
-
-In case you want to add a hero image to the post, apart from changing `featured-img` in YAML, you also need to add the image file to the project. To do so, just upload an image in `.jpg` format to `_img` folder. The name must before the `.jpg` file extension has to match with `featured-img` in YAML. Next, run `gulp img` from command line to generate optimized version of the image and all the thumbnails. You have to restart  the jekyll server to see the changes. Sleek uses [Lazy Sizes](https://github.com/aFarkas/lazysizes) Lazy Loader for loading images. Check the link for more info. Lazy Sizes doesnt't require any configuration and it's going to be included in your bundled js file.
-
-### Pages
-
-The home page is located under `index.md` file. To change the content or design you have to edit the `default.html` file in `_layouts` folder.
-
-In order to add a new page, create a new html or markdown file under root directory or inside `_pages` folder. To add a link to the page, edit `navigation` setting in `_config.yml`.
-
-### Images TODO
-
-Introduce gulp optimization
-
-Breakpoint | Image Type | Width | Retina
------------- | ------------ | ------------- | -------------
-xs |Post Thumb | 535px | 1070px
-sm |Post Thumb | 500px| 1000px
-md |Post Thumb | 329.375px | 658.75px
-lg |Post Thumb | 445.625px | 891.25px
-xl |Post Thumb | 353.125px | 706.25px
-
-Breakpoint | Image Type | Width | Retina
------------- | ------------ | ------------- | -------------
-xs |Post Hero | 535px | 1070px
-sm |Post Hero | 500px| 1000px
-md |Post Hero | 329.375px | 658.75px
-lg |Post Hero | 445.625px | 891.25px
-xl |Post Hero | 353.125px | 706.25px
-
-### MathJax
-
-If you want to use [MathJax](https://www.mathjax.org/) in your posts, add `mathjax: true` in [YAML front matter](https://jekyllrb.com/docs/frontmatter/) of your post:
-
-```yaml
----
-layout: post
-title: Blog Post with MathJax
-featured-img: sleek # optional - if you want you can include name of hero image
-mathjax: true # add this line in order to enable MathJax in the post
----
-```
-
-#### Example
-
-In N-dimensional simplex noise, the squared kernel summation radius $r^2$ is $\frac 1 2$
-for all values of N. This is because the edge length of the N-simplex $s = \sqrt {\frac {N} {N + 1}}$
-divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.
-The kerel summation radius $r$ is equal to the N-simplex height $h$.
-
-$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
-Happy hacking!
+铜官窑瓷器题诗二十一首编辑
+一、夜夜挂长钩，朝朝望楚楼。可怜孤月夜，沧照客心愁。
+二、圣水出温泉，新阳万里传。常居安乐国，多报未来缘。
+三、日日思前路，朝朝别主人。行行山水上，处处鸟啼新。
+四、祇愁啼鸟别，恨送古人多。去后看明月，风光处处过。
+五、一别行万里，来时未有期。月中三十日，无夜不相思。
+六、千里人归去，心画一杯中。莫虑前途远，开帆逐便风。
+七、小水通大河，山深鸟宿多。主人看客好，曲路亦相过。
+八、道别即须分，何劳说苦辛。牵牛石上过，不见有蹄痕。
+九、一月三场战，曾无赏罚为。将军马上坐，将士雪中眠。 
+十、自入新丰市，唯闻旧酒香。抱琴酤一醉，尽日卧弯汤。
+十一、我有方寸心，无人堪共说。遣风吹却云，言向天边月。
+十二、男儿大丈夫，何用本乡居。明月家家有，黄金何处无。
+十三、客人莫直入，直入主人嗔。扣门三五下，自有出来人。
+十四、君生我未生，我生君已老。君恨我生迟，我恨君生早。
+十五、天地平如水，王道自然开。家中无学子，官从何处来。
+十六、龙门多贵客，出户是贤宾。今日归家去，将与贵人看。
+十七、天吞日月奣，五月已三龙。言身一寸谢，千里重会钟。 
+十八、上有东流水，下有好山林。主人居此宅，可以斗量金。
+十九、买人心惆怅，卖人心不安。题诗安瓶上，将与卖人看。
+二十、自从君别后，常守旧时心。洛阳来路远，还用几黄金。
+二十一、念念催年促，由如少水如。劝诸行过众，修学香无馀。
